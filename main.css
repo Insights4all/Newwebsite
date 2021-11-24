@@ -1,0 +1,8 @@
+#myservices {
+  height: 310px !important;
+}
+@media only screen and (max-width: 600px) {
+  #myservices {
+    height: 280px !important;
+  }
+}
