@@ -42,8 +42,31 @@
 #certificates{
   display: block;
 }
-@media only screen and (max-width: 600px) {
+#fixedbutton {
+  position: fixed;
+  bottom:5%;
+  right: 3%;
 
+ 
+}
+#whatsapp{
+  height: 110px;
+  width: 110px;
+}
+
+@media only screen and (max-width: 600px) {
+  #fixedbutton {
+    position: fixed;
+    bottom:5%;
+    right: 3%;
+  
+   
+  }
+  #whatsapp{
+    height: 60px;
+    width: 60px;
+  }
+  
   #certificates{
     display: none;
   }
