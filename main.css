@@ -53,8 +53,16 @@
   height: 110px;
   width: 110px;
 }
+#businessimage{
+  height: 600px;
+  width: 900px;
+}
 
 @media only screen and (max-width: 600px) {
+  #businessimage{
+    height: 200px;
+    width: 300px;
+  }
   #fixedbutton {
     position: fixed;
     bottom:5%;
